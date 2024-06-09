@@ -1,36 +1,3 @@
-// import logo from './logo.svg';
-// import './App.css';
-// import React, { useState } from 'react';
-
-
-// const App = () => {
-//   const generateRandomPassword = (length) => {
-//     const characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
-//     let password = '';
-//     for (let i = 0; i < length; i++) {
-//       const randomIndex = Math.floor(Math.random() * characters.length);
-//       password += characters[randomIndex];
-//     }
-//     return password;
-//   };
-
-//   const [password, setPassword] = useState(generateRandomPassword(8));
-
-//   const handleGeneratePassword = () => {
-//     setPassword(generateRandomPassword(8));
-//   };
-
-//   return (
-//     <div style={{ textAlign: 'center', marginTop: '50px' }}>
-//       <h1>{password}</h1>
-//       <button onClick={handleGeneratePassword}>Generate Password</button>
-//     </div>
-//   );
-// };
-
-// export default App;
-
-
 import logo from './logo.svg';
 import './App.css';
 import React, { useState } from 'react';
